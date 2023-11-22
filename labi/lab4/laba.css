@@ -1,0 +1,37 @@
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add a border for better visibility /
+    border-radius: 3px; / Add border-radius for a rounded look /
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/ Responsive Design /
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    / Adjust font size or spacing for better readability on smaller screens */
+    .header {
+        font-size: 20px;
+    }
+
+    .section, .days {
+        font-size: 16px;
+    }
+}
